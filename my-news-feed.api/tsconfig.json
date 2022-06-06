@@ -1,0 +1,42 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "allowJs": true,
+      "moduleResolution": "Node",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "lib": ["ESNext"],
+      "removeComments": true,
+      // "skipLibCheck": true,
+      // "noImplicitAny": true,
+
+      // "noImplicitOverride": true,
+
+      // "strict": true,
+      "esModuleInterop": true,
+      "preserveConstEnums": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "typeRoots": ["node_modules/@types"],
+      "baseUrl": ".",
+      "paths": {
+        "app": ["app"]
+      },
+      // "forceConsistentCasingInFileNames": true,
+      // "rootDir": ".",
+      // "skipDefaultLibCheck": true,
+
+      // "suppressImplicitAnyIndexErrors": true,
+      // "noEmitHelpers": true,
+    },
+    "include": [
+      "app/**/*",
+      "**/*.ts",
+      "**/*.ts",
+      "**/*.tsx"
+    ],
+    "files": [
+      "app.ts"
+    ],
+    "exclude": ["node_modules", "dist"]
+  }

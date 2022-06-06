@@ -1,0 +1,122 @@
+### Angular ###
+## Angular ##
+# compiled output
+my-news-feed.gui/dist/
+my-news-feed.gui/tmp/
+my-news-feed.gui/app/**/*.js
+my-news-feed.gui/app/**/*.js.map
+
+# dependencies
+my-news-feed.gui/node_modules/
+my-news-feed.gui/bower_components/
+
+# IDEs and editors
+my-news-feed.gui/.idea/
+
+# misc
+my-news-feed.gui/.sass-cache/
+my-news-feed.gui/connect.lock/
+my-news-feed.gui/coverage/
+my-news-feed.gui/libpeerconnection.log/
+my-news-feed.gui/npm-debug.log
+my-news-feed.gui/testem.log
+my-news-feed.gui/typings/
+my-news-feed.gui/.angular/
+
+# e2e
+my-news-feed.gui/e2e/*.js
+my-news-feed.gui/e2e/*.map
+
+# System Files
+my-news-feed.gui/.DS_Store/
+
+### Flutter ###
+# Flutter/Dart/Pub related
+my-news-feed.mobile/**/doc/api/
+my-news-feed.mobile/.dart_tool/
+my-news-feed.mobile/.flutter-plugins
+my-news-feed.mobile/.flutter-plugins-dependencies
+my-news-feed.mobile/.fvm/
+my-news-feed.mobile/.packages
+my-news-feed.mobile/.pub-cache/
+my-news-feed.mobile/.pub/
+my-news-feed.mobile/build/
+my-news-feed.mobile/lib/generated_plugin_registrant.dart
+# For library packages, don’t commit the pubspec.lock file.
+# Regenerating the pubspec.lock file lets you test your package against the latest compatible versions of its dependencies.
+# See https://dart.dev/guides/libraries/private-files#pubspeclock
+#pubspec.lock
+
+# Android related
+my-news-feed.mobile/**/android/**/gradle-wrapper.jar
+my-news-feed.mobile/**/android/.gradle
+my-news-feed.mobile/**/android/captures/
+my-news-feed.mobile/**/android/gradlew
+my-news-feed.mobile/**/android/gradlew.bat
+my-news-feed.mobile/**/android/key.properties
+my-news-feed.mobile/**/android/local.properties
+my-news-feed.mobile/**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+my-news-feed.mobile/**/ios/**/*.mode1v3
+my-news-feed.mobile/**/ios/**/*.mode2v3
+my-news-feed.mobile/**/ios/**/*.moved-aside
+my-news-feed.mobile/**/ios/**/*.pbxuser
+my-news-feed.mobile/**/ios/**/*.perspectivev3
+my-news-feed.mobile/**/ios/**/*sync/
+my-news-feed.mobile/**/ios/**/.sconsign.dblite
+my-news-feed.mobile/**/ios/**/.tags*
+my-news-feed.mobile/**/ios/**/.vagrant/
+my-news-feed.mobile/**/ios/**/DerivedData/
+my-news-feed.mobile/**/ios/**/Icon?
+my-news-feed.mobile/**/ios/**/Pods/
+my-news-feed.mobile/**/ios/**/.symlinks/
+my-news-feed.mobile/**/ios/**/profile
+my-news-feed.mobile/**/ios/**/xcuserdata
+my-news-feed.mobile/**/ios/.generated/
+my-news-feed.mobile/**/ios/Flutter/.last_build_id
+my-news-feed.mobile/**/ios/Flutter/App.framework
+my-news-feed.mobile/**/ios/Flutter/Flutter.framework
+my-news-feed.mobile/**/ios/Flutter/Flutter.podspec
+my-news-feed.mobile/**/ios/Flutter/Generated.xcconfig
+my-news-feed.mobile/**/ios/Flutter/app.flx
+my-news-feed.mobile/**/ios/Flutter/app.zip
+my-news-feed.mobile/**/ios/Flutter/flutter_assets/
+my-news-feed.mobile/**/ios/Flutter/flutter_export_environment.sh
+my-news-feed.mobile/**/ios/ServiceDefinitions.json
+my-news-feed.mobile/**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!my-news-feed.mobile/**/ios/**/default.mode1v3
+!my-news-feed.mobile/**/ios/**/default.mode2v3
+!my-news-feed.mobile/**/ios/**/default.pbxuser
+!my-news-feed.mobile/**/ios/**/default.perspectivev3
+!my-news-feed.mobile/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
+### Koa ###
+my-news-feed.api/node_modules/
