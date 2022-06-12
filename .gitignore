@@ -120,4 +120,5 @@ my-news-feed.mobile/**/ios/Runner/GeneratedPluginRegistrant.*
 
 ### Koa ###
 my-news-feed.api/node_modules/
-my-news-feed.api/.env.**
+my-news-feed.api/.env
+my-news-feed.api/.env.*
