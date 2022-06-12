@@ -3,7 +3,7 @@ import { Server } from "http";
 import CONSTANTS from "./configs/constants";
 import { bootstrapAfter } from "./configs/bootstrap";
 
-module.exports = (async (): Promise<Server> => {
+module.exports = (async (): Promise<Server | undefined> => {
 
   try {
     const app = await createServer();

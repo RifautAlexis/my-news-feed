@@ -29,8 +29,8 @@ const getCurrentConstants = (currentEnv: ENVIRONMENTS): {[name: string]: string;
 
   const constantsFound: {[name: string]: string;} = {};
 
-  Object.keys(envVariables.parsed).map(key => {
-    constantsFound[key] = envVariables.parsed[key];
+  Object.keys(envVariables.parsed!).map(key => {
+    constantsFound[key] = envVariables.parsed![key];
   });
   
   return constantsFound;
