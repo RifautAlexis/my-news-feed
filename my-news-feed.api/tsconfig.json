@@ -2,17 +2,18 @@
     "compileOnSave": false,
     "compilerOptions": {
       "allowJs": true,
+      "sourceMap": true,
       "moduleResolution": "Node",
       "module": "commonjs",
       "outDir": "./dist",
-      "lib": ["ESNext"],
+      "lib": ["esnext"],
       "removeComments": true,
       // "skipLibCheck": true,
       // "noImplicitAny": true,
 
       // "noImplicitOverride": true,
 
-      // "strict": true,
+      "strict": true,
       "esModuleInterop": true,
       "preserveConstEnums": true,
       "experimentalDecorators": true,
